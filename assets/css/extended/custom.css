@@ -1,0 +1,42 @@
+/* Main */
+header.header {
+  background-color: var(--custom-theme-default);
+}
+
+.dark header.header {
+  background-color: var(--code-bg);
+}
+
+.list {
+	background: var(--custom-theme-white);
+}
+
+/* Categories */
+ul.categories {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+}
+
+ul.categories li.category {
+  width: 50%;
+  position: relative;
+  margin-bottom: var(--gap);
+  padding: var(--gap);
+  background: var(--entry);
+  border-radius: var(--radius);
+  transition: transform .1s;
+  border: 1px solid var(--border);
+  text-align: center;
+  cursor: pointer;
+}
+
+ul.categories li.category:hover {
+  box-shadow: 0 0 3px var(--border);
+  margin-top: -2px;
+}
+
+/* ul.categories li.category span.batch {
+  background-color: ;
+} */
+
