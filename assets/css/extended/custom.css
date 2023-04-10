@@ -1,14 +1,15 @@
 /* Main */
+.list {
+	background: var(--custom-theme-white);
+}
+
+/* Header */
 header.header {
   background-color: var(--custom-theme-default);
 }
 
 .dark header.header {
   background-color: var(--code-bg);
-}
-
-.list {
-	background: var(--custom-theme-white);
 }
 
 /* Categories */
@@ -31,9 +32,19 @@ ul.categories li.category {
   cursor: pointer;
 }
 
+ul.categories li.category a {
+  display: block;
+}
+
 ul.categories li.category:hover {
   box-shadow: 0 0 3px var(--border);
   margin-top: -2px;
+}
+
+/* Custom classes */
+.dotted-link {
+  border-bottom: 1px dotted;
+  color: unset;
 }
 
 /* ul.categories li.category span.batch {

@@ -1,7 +1,11 @@
 baseURL: "" 
+#baseURL: "https://beta.emaildojo.io/knowledgebase/" 
 languageCode: en-us
 title: Email Solutions 
 theme: PaperMod
+
+RelativeURLs: true
+CanonifyURLs: true
 
 params:
   label:
@@ -42,6 +46,12 @@ outputs:
     - HTML
     - RSS
     - JSON
+
+taxonomies:
+  author: "authors"
+  tag: "tags"
+  category: "categories"
+  
 
 menu:
   main:

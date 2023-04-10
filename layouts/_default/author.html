@@ -1,0 +1,48 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">
+      {{ .Title }}
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      <!-- {{- partial "post_meta.html" . -}} -->
+      {{- partial "translation_list.html" . -}}
+      {{- partial "edit_post.html" . -}}
+      {{- partial "post_canonical.html" . -}}
+    </div>
+    {{- end }}
+  </header>
+  <h1 class="author_title">{{ .Params.name }}</h1>
+  <img class="author_image" src="{{ .Params.photo }}" alt=""/>
+
+  <div class="author-bio">
+    <h2>Bio</h2>
+    {{ .Content }}
+    {{ with .Params.twitter }}
+      <p>
+        <a href="https://twitter.com/{{ substr . 1 }}">
+          Follow {{ $.Params.name }} on Twitter
+        </a>
+      </p>
+    {{ end }}
+  </div>
+
+  <!-- <h2>Articles</h2>
+  <ul>
+  {{ range .Data.Pages }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+  </ul> -->
+
+</article>
+
+{{- end }}{{/* end main */}}
