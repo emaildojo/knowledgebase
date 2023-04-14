@@ -13,15 +13,17 @@
 
 <!-- <ul class="terms-tags"> -->
 
-<ul class="categories">
+<ul class="categories columns">
     {{- $type := .Type }}
     {{- range $key, $value := .Data.Terms.Alphabetical }}
     {{- $name := .Name }}
     {{- $count := .Count }}
     {{- with site.GetPage (printf "/%s/%s" $type $name) }}
-    <li class="category">
-        <a href="{{ .Permalink }}">{{ .Name }} <sup><strong><sup class="category-counter">{{ $count }}</sup></strong></sup> </a>
-    </li>
+    <div class="column is-half">
+        <li class="category">
+            <a href="{{ .Permalink }}">{{ .Name }} <sup><strong><sup class="category-counter">{{ $count }}</sup></strong></sup> </a>
+        </li>
+    </div>
     {{- end }}
     {{- end }}
 </ul>

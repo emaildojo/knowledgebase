@@ -6,8 +6,8 @@ draft: false
 #   image: ''
 #   alt: 'Solution info banner'
 #   caption: 'Solutions to spam smtp error'
-tags: ["deliverability"]
-categories: ["email"]
+tags: ["email-bounce"]
+categories: ["Email Deliverability"]
 author: ['hitesh pandey']
 ---
 
