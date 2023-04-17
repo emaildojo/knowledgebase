@@ -1,0 +1,91 @@
+<!-- {{ $ifacebook := resources.Get "images/icons/facebook.svg" }}
+{{ $itwitter := resources.Get "images/icons/twitter.svg" }}
+{{ $ilinkedin := resources.Get "images/icons/linkedin.svg" }}
+{{ $iyoutube := resources.Get "images/icons/youtube.svg" }}
+{{ $logo := resources.Get "images/netcore-logo-main.svg" }} -->
+<footer class="main-footer">
+  <!-- <div class="dflex nxt-px nxt-py-30">
+    <div><img src="{{ $logo.RelPermalink  }}" alt="netcore" class="footer-logo-netcore" /></div>
+    <div class="m-auto"><a href="mailto:devrel@netcorecloud.com" class="nxt-gray text-decoration-none">devrel@netcorecloud.com</a></div>
+    <div>
+      <a href="https://twitter.com/netcore_cloud" class="nxt-ml-10"><img src="{{ $itwitter.RelPermalink }}" alt="twitter"></a>
+      <a href="https://www.linkedin.com/company/netcore-cloud/" class="nxt-ml-10"><img src="{{ $ilinkedin.RelPermalink }}" alt="linkedin"></a>
+      <a href="https://www.facebook.com/NetcoreCloud" class="nxt-ml-10"><img src="{{ $ifacebook.RelPermalink }}" alt="facebook"></a>
+      <a href="https://www.youtube.com/user/netCORESolutions" class="nxt-ml-10"><img src="{{ $iyoutube.RelPermalink }}" alt="youtube"></a>
+    </div>
+  </div> -->
+
+  <div class="footer-black">
+    <div><img src="https://netcorecloud.com/wp-content/uploads/2022/11/Netcore_Lockup_On_Ash_RGB_570px@72ppi.png" alt="netcore" class="footer-logo-netcore" /></div>
+    <p class="footer-text">Made with ❤️ by <a class="footer-link" href="mailto:devrel@netcorecloud.com">Netcorecloud</a> for email community </p>
+    <div>
+      <a href="https://twitter.com/netcore_cloud" class="nxt-ml-10"><img src="https://netcorecloud.com/wp-content/themes/netcoretheme/assets/images/home/twitter.svg" alt="twitter"></a>
+      <a href="https://www.linkedin.com/company/netcore-cloud/" class="nxt-ml-10"><img src="https://netcorecloud.com/wp-content/themes/netcoretheme/assets/images/home/linkedin.svg" alt="linkedin"></a>
+      <a href="https://www.facebook.com/NetcoreCloud" class="nxt-ml-10"><img src="https://netcorecloud.com/wp-content/themes/netcoretheme/assets/images/home/facebook.svg" alt="facebook"></a>
+      <a href="https://www.youtube.com/user/netCORESolutions" class="nxt-ml-10"><img src="https://netcorecloud.com/wp-content/themes/netcoretheme/assets/images/home/youtube.svg" alt="youtube"></a>
+    </div>
+    <!-- <div class="ms-auto">
+      <ul class="no-list-style">
+        <li class="d-inline-block nxt-pl-10"><a href="https://netcorecloud.com/privacy-policy?utm_source=Emaildojo&utm_medium=Emaildojo&utm_campaign=Emaildojo" class="text-decoration-none text-white">Privacy Policy</a></li>
+        <li class="d-inline-block nxt-pl-10"><a href="https://netcorecloud.com/email-api-terms-and-policies?utm_source=Emaildojo&utm_medium=Emaildojo&utm_campaign=Emaildojo" class="text-decoration-none text-white">Email API Terms and Polices</a></li>
+        <li class="d-inline-block nxt-pl-10"><a href="https://netcorecloud.com/gdpr?utm_source=Emaildojo&utm_medium=Emaildojo&utm_campaign=Emaildojo" class="text-decoration-none text-white">GDPR</a></li>
+        <li class="d-inline-block nxt-pl-10"><a href="https://netcorecloud.com/security?utm_source=Emaildojo&utm_medium=Emaildojo&utm_campaign=Emaildojo" class="text-decoration-none text-white">Data Security</a></li>
+      </ul>
+    </div> -->
+  </div>
+</footer>
+
+<style>
+  .footer-logo-netcore {
+    height: 25px;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+
+  .footer-link {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .footer-text {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .dflex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .nxt-px {
+    padding-left: calc(-.68293rem + 3.90244vw);
+    padding-right: calc(-.68293rem + 3.90244vw);
+  }
+
+  .nxt-py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .main-footer img {
+    display: unset;
+  }
+
+  .footer-black {
+    background-color: #291e30;
+    color: #fff;
+    display: flex;
+    padding: 17px 100px;
+    /* text-align: center; */
+  }
+
+  @media only screen and (max-width: 600px) {
+    .footer-black {
+      flex-direction: column;
+      text-align: center;
+    }
+  }  
+</style>

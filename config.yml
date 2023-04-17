@@ -1,30 +1,40 @@
 baseURL: "" 
 #baseURL: "https://beta.emaildojo.io/knowledgebase/" 
 languageCode: en-us
-title: Email Solutions 
+title: Knowledgebase 
 theme: PaperMod
+pagination: 10
 
 googleAnalytics: "G-XPN6VKC8EX"
 
 RelativeURLs: true
 CanonifyURLs: true
 
+# permalink:
+  # email-deliverability: "/blog/email-deliverability/:title/"
+  # tutorials = "/blog/tutorials/:title/"
+
 params:
+  env: production
+  mainSections:
+   - Email Deliverability
+   - Email Insights
+   - Email Marketing
   disableThemeToggle: true
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "apple-icon.png"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
+    favicon: "favicon-256x256-1.png"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
     safari_pinned_tab: "<link / abs url>"
-  label:
-    icon: 'images/emaildojo-final-01.svg'
-    icon_white: 'images/logo_white.svg'
+  # label:
+    # icon: 'images/emaildojo-final-01.svg'
+    # icon_white: 'images/logo_white.svg'
     # iconSVG: '<svg version="1.0" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" preserveAspectRatio="xMidYMid meet" viewBox="13.23 139.13 639.58 127.78"><g transform="translate(0.000000,375.000000) scale(0.100000,-0.100000)" fill="#291e30" stroke="none"><path d="M3093 2346 c-74 -34 -93 -129 -37 -187 69 -72 201 -38 218 56 8 43 -14 98 -48 120 -35 23 -95 28 -133 11z"/><path d="M5533 2345 c-38 -16 -73 -68 -73 -108 0 -105 151 -158 222 -78 22 25 28 41 28 79 0 57 -20 89 -66 108 -42 17 -70 17 -111 -1z"/><path d="M3412 1913 c3 -410 4 -430 24 -467 11 -22 37 -54 58 -70 36 -30 42 -31 135 -31 75 0 103 4 123 17 l27 18 -24 67 c-14 38 -25 68 -25 68 0 0 -19 -1 -42 -3 -70 -7 -68 -19 -68 430 l0 398 -106 0 -105 0 3 -427z"/><path d="M4300 2170 c0 -93 -2 -170 -4 -170 -2 0 -25 10 -51 21 -62 27 -165 23 -243 -11 -77 -33 -152 -118 -180 -204 -37 -111 -26 -266 24 -345 48 -75 117 -113 217 -119 95 -6 148 12 206 68 l40 39 -6 -50 -6 -49 102 0 101 0 0 495 0 495 -100 0 -100 0 0 -170z m-54 -325 c64 -42 73 -179 18 -257 -57 -78 -145 -101 -202 -53 -42 35 -55 74 -50 153 6 118 71 187 165 178 24 -2 54 -11 69 -21z"/><path d="M384 2031 c-172 -44 -282 -234 -244 -423 22 -112 75 -182 180 -234 73 -37 230 -46 312 -19 48 15 138 76 138 93 0 4 -23 33 -51 65 -46 52 -53 56 -68 44 -35 -31 -82 -47 -136 -47 -66 0 -115 20 -150 62 -48 57 -46 58 189 58 240 0 226 -5 226 79 0 137 -51 245 -139 295 -47 26 -66 30 -140 33 -47 1 -100 -1 -117 -6z m176 -153 c23 -14 40 -50 40 -83 l0 -25 -131 0 -130 0 7 23 c15 49 54 87 99 100 28 8 92 -1 115 -15z"/><path d="M1270 2031 c-51 -16 -89 -41 -130 -88 l-43 -48 5 68 6 67 -99 0 -99 0 0 -340 0 -340 100 0 100 0 0 81 c0 90 14 198 36 276 31 109 103 166 176 141 51 -18 58 -50 58 -288 l0 -210 99 0 98 0 7 100 c18 267 78 403 176 403 49 0 76 -22 90 -72 5 -20 10 -125 10 -233 l0 -198 100 0 100 0 0 235 c0 212 -2 242 -21 298 -38 114 -113 164 -237 155 -83 -6 -160 -44 -205 -100 -17 -21 -34 -38 -37 -38 -4 0 -13 14 -20 30 -17 41 -71 87 -117 99 -43 12 -116 13 -153 2z"/><path d="M2423 2026 c-149 -49 -243 -188 -243 -361 0 -113 42 -217 107 -270 51 -40 97 -54 178 -54 84 -1 135 20 190 75 l38 38 -6 -52 -6 -53 102 3 102 3 3 338 3 337 -75 0 -75 0 -7 -35 c-7 -40 -14 -43 -39 -15 -10 11 -32 27 -49 36 -42 22 -169 28 -223 10z m182 -170 c51 -22 75 -68 75 -144 0 -78 -25 -131 -82 -172 -138 -101 -265 62 -184 237 38 81 113 111 191 79z"/><path d="M4873 2022 c-73 -26 -128 -65 -168 -120 -51 -70 -69 -131 -69 -238 0 -79 4 -99 27 -146 33 -66 85 -120 146 -150 40 -20 62 -23 161 -23 106 0 120 2 172 28 72 35 128 91 164 165 26 52 29 66 29 167 0 100 -2 115 -28 167 -54 111 -138 159 -287 165 -74 3 -106 0 -147 -15z m203 -177 c85 -55 72 -257 -20 -315 -30 -18 -47 -21 -89 -17 -42 4 -56 10 -83 40 -73 80 -47 252 46 300 41 21 107 18 146 -8z"/><path d="M6084 2031 c-171 -44 -272 -193 -262 -386 7 -133 60 -218 171 -277 37 -20 57 -23 162 -23 107 0 125 3 170 25 74 36 148 114 174 184 71 189 8 383 -147 457 -36 17 -69 23 -142 25 -52 2 -109 0 -126 -5z m167 -183 c52 -29 74 -85 66 -168 -9 -102 -69 -170 -150 -170 -84 0 -137 63 -137 164 0 151 109 237 221 174z"/><path d="M3050 1690 l0 -340 100 0 100 0 0 340 0 340 -100 0 -100 0 0 -340z"/><path d="M5488 1678 c-3 -390 -2 -384 -68 -415 -28 -13 -46 -14 -102 -7 l-68 10 -5 -31 c-3 -16 -9 -52 -14 -80 -11 -60 -9 -61 76 -71 167 -17 293 38 350 154 l28 57 3 368 3 367 -100 0 -100 0 -3 -352z"/></g></svg>'
   homeInfoParams:
-    Title: "Knowledge Base"
+    Title: "Resource Center"
     Content: "A-z solutions for your email delivery issues."
   socialIcons:
     - name: facebook
@@ -69,15 +79,15 @@ taxonomies:
   
 menu:
   main:
-    - identifier: search 
-      name: Search 🔍
-      url: /search/
+    - identifier: tags
+      name: 🔖 Tags
+      url: /tags/
       weight: 10
-#     - identifier: tags
-#       name: Tags
-#       url: /tags/
-#       weight: 30
-#     - identifier: archives
-#       name: Archives
-#       url: /archives/
-#       weight: 20
+    - identifier: categories
+      name: 📚 Categories
+      url: /categories/
+      weight: 20
+    - identifier: search 
+      name: 🔍 Search 
+      url: /search/
+      weight: 30

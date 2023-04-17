@@ -3,7 +3,7 @@ title: "Strategies for Reengaging Inactive Subscribers"
 date: 2023-04-14T19:45:53+05:30
 draft: false
 tags: ["email-marketing", "email-campaign"]
-categories: ["Email Analytics and Optimization"]
+categories: ["Email Strategy"]
 author: ["Vikram Sahu"]
 ---
 
