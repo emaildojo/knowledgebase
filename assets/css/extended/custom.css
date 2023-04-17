@@ -91,17 +91,23 @@ font-size: 16px;
 }
 
 .collapsed-content-tools {
-width: 100%;
-z-index: 9;
-background-color: white;
-position: absolute;
-top:50px;
-left: 0;
-transition: height 1.7s ease-in-out;
-border-bottom-left-radius: 10px;
-border-bottom-right-radius:10px;
-border-bottom: 5px solid #FC5E02;
-display: none;
+  width: 100%;
+  z-index: 9;
+  background-color: white;
+  position: absolute;
+  top:50px;
+  left: 0;
+  transition: 1.7s ease-in-out;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px;
+  border-bottom: 5px solid #FC5E02;
+  display: none;
+}
+
+.collapsed-container-header h4 {
+	margin: 0 0 5px 0;
+	font-size: 18px;
+	font-weight: 500;
 }
 
 .collapsed-container{
@@ -221,6 +227,10 @@ footer.sub-footer{
 .first-entry {
   min-height: unset;
 }
+
+.post-content {
+  text-align: justify;
+}
 /* Override ends */
 
 /* Custom classes */
@@ -235,9 +245,10 @@ footer.sub-footer{
 }
 
 .badge {
-  padding: 4px 8px;
+  padding: 2px 5px;
   text-align: center;
   border-radius: 5px;
+  font-size: 14px;
 }
 
 .badge.badge-dark {
