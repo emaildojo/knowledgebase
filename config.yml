@@ -17,6 +17,7 @@ CanonifyURLs: true
 params:
   showtoc: true
   tocopen: true
+  hideFooter: true
   env: production
   mainSections:
    - Email Deliverability
@@ -31,7 +32,7 @@ params:
     favicon16x16: "emaildojo.svg"
     favicon32x32: "emaildojo.svg"
     apple_touch_icon: "apple-touch-icon.png"
-    safari_pinned_tab: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
   # label:
     # icon: 'images/emaildojo-final-01.svg'
     # icon_white: 'images/logo_white.svg'
