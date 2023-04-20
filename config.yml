@@ -1,4 +1,4 @@
-baseURL: "" 
+baseURL: "/" 
 #baseURL: "https://beta.emaildojo.io/knowledgebase/" 
 languageCode: en-us
 title: Knowledgebase 
@@ -31,8 +31,8 @@ params:
     favicon: "emaildojo.svg"
     favicon16x16: "emaildojo.svg"
     favicon32x32: "emaildojo.svg"
-    apple_touch_icon: "apple-touch-icon.png"
-    # safari_pinned_tab: "<link / abs url>"
+    apple_touch_icon: "emaildojo.svg"
+    safari_pinned_tab: "emaildojo.svg"
   # label:
     # icon: 'images/emaildojo-final-01.svg'
     # icon_white: 'images/logo_white.svg'
@@ -85,13 +85,13 @@ menu:
   main:
     - identifier: tags
       name: 🔖 Tags
-      url: /knowledgebase/tags/
+      url: /tags/
       weight: 10
     - identifier: categories
       name: 📚 Categories
-      url: /knowledgebase/categories/
+      url: /categories/
       weight: 20
     - identifier: search 
       name: 🔍 Search 
-      url: /knowledgebase/search/
+      url: /search/
       weight: 30
