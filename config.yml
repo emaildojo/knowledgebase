@@ -57,6 +57,8 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+    appendUrl: '/knowledgebase'
+    
     
   cover:
     linkFullImages: true
