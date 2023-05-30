@@ -1,4 +1,4 @@
-<header class="sticky-top navbar dflex justify-content-between">
+<header class="sticky-top navbar desktop-header">
   <div class=" navbar-inner-div">
   <div class="left-nav">
     <div>
@@ -7,7 +7,7 @@
       </a>
     </div>
   </div>
-  <div class="right-nav dflex align-items-center justify-content-center icon-menu">
+  <div class="right-nav icon-menu">
     <div class="collapse-element menu-item" onmouseover="mouseover(this)" onmouseleave="mouseleft(this)">
       Tools
       <div class="collapsed-content-tools">
@@ -36,7 +36,6 @@
                     <div class="menu-text">Boost Email Open Rates!</div>
                   </div>
               </div>
-                
                 <!-- <p class="menu-text"></p> -->
             </a>
           </div>
@@ -162,7 +161,7 @@
               </a>
             </div>
             <div>
-              <a class="menu-item" href="#">
+              <a class="menu-item" href="https://emaildojo.io/email-glossary">
                   <div class="dflex header-icon-dflex">
                     <div><img class="menu-icon" src="/icons/menuicons/knowledge-center/glossary.svg" alt="edhc"></div>
                     <div>
@@ -193,22 +192,350 @@
     </div>
  </div>
 </header>
+<!-- Responsive navbar-->
+<header class="sticky-top navbar mobile-header">
+  <div class="responsive-header-container">
+    <div class="responsive-header-left-container"><img src="./images/emaildojo-final-01.svg" alt=""></div>
+    <div class="responsive-header-right-container"><img onclick="toggleResponsiveNavbar()" id="responsive-navbar-toggle" src="https://netcorecloud.com/wp-content/themes/netcoretheme/assets/images/hamburger.webp" alt=""></div>
+  </div>
+  <div id="collapsedContainer" class="fade">
+    <div class="collapsedContainer-inner-header">
+      <div class="responsive-header-left-container"><img src="./images/emaildojo-final-01.svg" alt=""></div>
+      <div onclick="toggleResponsiveNavbar()">X</div>
+    </div>
+    <div class="navbar-menu-items-container">
+      <div class="navbar-menu-items mb-10 mt-10" onclick="toggleToolsSubMenu()">
+        <div>Tools</div>
+        <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+      </div>
+      <hr>
+      <div class="navbar-menu-items mb-10 mt-10" onclick="toggleKbSubMenu()">
+        <div>Knowledgebase</div>
+        <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+      </div>
+      <hr>
+      <a href="https://netcorecloud.com/resources/ebook/">
+      <div class="navbar-menu-items mb-10 mt-10">
+        <div>Ebooks</div>
+        <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+      </div>
+    </a>
+      <hr>
+    </div>
+    <div class="navbar-menu-items-container-tools">
+      <div >
+        <div class="mb-40" onclick="toggleToolsSubMenu()"><span class="dflex"><img class="arrowleft" src="./images/arrowdown.svg" alt=""> <u>Tools</u></span></div>
+        <div class="navbar-menu-items mb-40 email-deliverability-header">
+          <div>Email Deliverability Tools
+            <div class="mt-10" onclick="deliverabilityShowMore()">Show more</div>
+          </div>
+          <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+        </div>
+        <div class="email-deliverability-tools-collapse inner-collapse mb-40">
+          <a href="https://emaildojo.io/mx-record-lookup">
+            <div class="navbar-menu-items mb-10">
+              <div>MX Lookup</div>
+              <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+            </div>
+          </a>
+          <a href="https://emaildojo.io/spf-record-checker">
+            <div class="navbar-menu-items mb-10">
+              <div>SPF Record</div>
+              <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+            </div>
+          </a>
+          <a href="https://emaildojo.io/dmarc-checker">
+            <div class="navbar-menu-items mb-10">
+              <div>DMARC Record</div>
+              <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+            </div>
+          </a>
+          <a href="https://emaildojo.io/dkim-checker">
+            <div class="navbar-menu-items mb-10">
+              <div>DKIM Record</div>
+              <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+            </div>
+          </a>
+          <a href="https://emaildojo.io/email-blocklist-checker">
+            <div class="navbar-menu-items mb-10">
+              <div>Blocklist Checker</div>
+              <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+            </div>
+          </a>
+          <div onclick="deliverabilityShowMore()">Show less</div>
+        </div>
+        <!-- Email Testing and Authentication -->
+        <div class="navbar-menu-items mb-40 email-testing-header">
+          <div>Email Authentication Tools
+            <div class="mt-10" onclick="emailTestingToggleFunction()">Show more</div>
+          </div>
+          <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+        </div>
+        <div class="email-testing-tools-collapse inner-collapse mb-40">
+          <a href="https://emaildojo.io/bimi-record-validator">
+            <div class="navbar-menu-items mb-10" >
+              <div>BIMI Checker</div>
+              <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+            </div>
+          </a>
+          <a href="https://emaildojo.io/email-tester">
+            <div class="navbar-menu-items mb-10">
+              <div>Email Spam Tester</div>
+              <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+            </div>
+          </a>
+          <a href="https://emaildojo.io/email-domain-health-checker">
+            <div class="navbar-menu-items mb-10">
+              <div>Email Health Checker</div>
+              <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+            </div>
+          </a>
+          <div onclick="emailTestingToggleFunction()">Show less</div>
+        </div>
+        <!-- Email Testing and Authentication ends -->
+        <!-- email design tools -->
+        <div class="navbar-menu-items email-design-tools-heading mb-40">
+          <div>Email Design Tools
+            <div class="mt-10" onclick="emailDesignToggleFunction()">Show more</div>
+          </div>
+          <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+        </div>
+        <div class="email-design-tool-collapse inner-collapse mb-40">
+          <a href="https://emaildojo.io/amp-email-editor">
+            <div class="navbar-menu-items mb-10" >
+              <div>AMP Editor</div>
+              <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+            </div>
+          </a>
+          <a href="https://emaildojo.io/ai-content-generator">
+            <div class="navbar-menu-items mb-10">
+              <div>AI Content Generator</div>
+              <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+            </div>
+          </a>
+          <a href="https://emaildojo.io/email-subject-line-previewer">
+            <div class="navbar-menu-items mb-10">
+              <div>Email Subject Line Previewer</div>
+              <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+            </div>
+          </a>
+          <div onclick="emailDesignToggleFunction()">Show less</div>
+        </div>
+
+        <!-- email design tools end -->
+        
+      </div>
+    </div>
+    <div class="navbar-menu-items-container-kb">
+      <div class="mb-20" ><span onclick="toggleKbFunction()" class="dflex"><img class="arrowleft" src="./images/arrowdown.svg" alt=""> <u>Knowledgebase</u></span></div>
+      <a href="https://emaildojo.io/knowledgebase/categories/">
+        <div class="navbar-menu-items mb-10">
+          <div>Blogs</div>
+          <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+        </div>
+      </a>
+      <a href="https://emaildojo.io/knowledgebase/categories/email-insights/">
+        <div class="navbar-menu-items mb-20">
+          <div>Email Insights</div>
+          <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+        </div>
+      </a>
+      <a href="https://emaildojo.io/email-glossary">
+        <div class="navbar-menu-items mb-20">
+          <div>Glossary</div>
+          <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+        </div>
+      </a>
+      <a href="https://emaildojo.io/knowledgebase/">
+        <div class="navbar-menu-items mb-20">
+          <div>Tutorials</div>
+          <div><img class="arrowright" src="./images/arrowdown.svg" alt=""></div>
+        </div>
+      </a>
+    </div>
+    <div class="responsive-navbar-footer">
+      <a href="#">Login</a>
+    </div>
+  </div>
+  
+</header>
 <script>
+
+  let collapsedContainer = document.getElementById("collapsedContainer");
+  let responsiveHeaderContainer = document.querySelector(".responsive-header-container");
+  let navbarMenuItemsContainer = document.querySelector(".navbar-menu-items-container");
+  let navbarMenuItemsContainerTools =  document.querySelector(".navbar-menu-items-container-tools");
+  let emailDeliverabilityToolsCollapse = document.querySelector(".email-deliverability-tools-collapse");
+  let emailDeliverabilityHeader = document.querySelector(".email-deliverability-header");
+  let emailTestingHeader = document.querySelector(".email-testing-header");
+  let emailTestingCollapse = document.querySelector(".email-testing-tools-collapse");
+  let emailDesignToolsCollapse = document.querySelector(".email-design-tool-collapse");
+  let emailDesignHeader = document.querySelector(".email-design-tools-heading");
+  let navbarMenuItemsContainerKnowledgebase = document.querySelector(".navbar-menu-items-container-kb")
+  let navToggleFlag = false;
+  let toggleToolFlag = true;
+  let deliverabilityToggleFlag = false; 
+  let testingToggleFlag = false;
+  let designToggleFlag = false;
+  let toggleKbFlag = false;
+  
   const mouseover = (e) => {
-    console.log('over mouse', e.getElementsByClassName('collapsed-content-tools')[0]);
+    console.log('over mouse', e.getElementsById('collapsed-content-tools')[0]);
     e.getElementsByClassName('collapsed-content-tools')[0].classList.add('show');
   }
 
   const mouseleft = (e) => {
     e.getElementsByClassName('collapsed-content-tools')[0].classList.remove('show');
   }
+  
+  const toggleResponsiveNavbar = () => {
+    navToggleFlag = !navToggleFlag;
+    toggleFunction();
+  }
+
+  const toggleFunction = () =>{
+    if(navToggleFlag === true){
+      collapsedContainer.style="display:block";
+      responsiveHeaderContainer.style = "display:none";
+    }
+    else{
+    collapsedContainer.style="display:none";
+    responsiveHeaderContainer.style = "display:flex";
+    }
+  }
+
+  // toggle tolls menu
+  const toggleToolsSubMenu = () =>{
+    console.log("tools")
+    toggleToolFlag = !toggleToolFlag;
+    toggleToolsFunction();
+  }
+
+  const toggleToolsFunction = () =>{
+    if(toggleToolFlag === false){
+      navbarMenuItemsContainer.style = "display:none";
+      navbarMenuItemsContainerTools.style = "display:block";
+    }else{
+      navbarMenuItemsContainer.style = "display:block";
+      navbarMenuItemsContainerTools.style = "display:none";
+    }
+  }
+
+const toggleKbSubMenu = () =>{
+    navbarMenuItemsContainer.style = "display:none";
+      navbarMenuItemsContainerKnowledgebase.style = "display:block";
+  // console.log("Inside kn submenu")
+  // toggleKbFlag = !toggleKbFlag
+  // console.log(toggleKbFlag)
+  // toggleKbFunction()
+}
+const toggleKbFunction = () =>{
+  console.log(toggleKbFlag)
+    // if(toggleToolFlag === true){
+    //   navbarMenuItemsContainer.style = "display:none";
+    //   navbarMenuItemsContainerKnowledgebase.style = "display:block";
+    // }else if(toggleToolFlag === false){
+      navbarMenuItemsContainer.style = "display:block";
+      navbarMenuItemsContainerKnowledgebase.style = "display:none";
+    // }
+  }
+
+  const deliverabilityShowMore = () =>{
+    deliverabilityToggleFlag = !deliverabilityToggleFlag
+    deliverabilityToggle()
+  }
+
+  const deliverabilityToggle = () =>{
+    if(deliverabilityToggleFlag === true){
+      emailDeliverabilityToolsCollapse.style="display:block";
+      emailDeliverabilityHeader.style="display:none";
+    }else{
+      emailDeliverabilityToolsCollapse.style="display:none";
+      emailDeliverabilityHeader.style="display:flex";
+    }
+  }
+
+const emailTestingToggleFunction = () =>{
+  testingToggleFlag = !testingToggleFlag;
+  emailTesting()
+}
+
+const emailTesting = () =>{
+
+  if(testingToggleFlag === true){
+    emailTestingCollapse.style="display:block";
+    emailTestingHeader.style="display:none";
+  }else{
+    emailTestingCollapse.style="display:none";
+    emailTestingHeader.style="display:flex";
+  }
+
+}
+
+const emailDesignToggleFunction = () =>{
+  designToggleFlag = !designToggleFlag
+  emailDesign()
+}
+const emailDesign = () =>{
+  console.log("designtoggle",designToggleFlag)
+  if(designToggleFlag === true){
+    emailDesignToolsCollapse.style = "display:block"
+    emailDesignHeader.style = "display:none"
+  }else{
+    emailDesignToolsCollapse.style="display:none"
+    emailDesignHeader.style="display:flex"
+  }
+}
 </script>
 <style>
+  @import "../../assets/css/test.css";
   .coming-soon-hover-effect .coming-soon {
     display: none;
   }
-
+  .email-design-tool-collapse{
+  display: none;
+  /* visibility:hidden; */
+}
   .coming-soon-hover-effect:hover .coming-soon{
     display: initial;
+  }
+  #collapsedContainer {
+    display: none;
+  padding: 0 0;
+  background-color: white;
+  /* max-height: 0; */
+  overflow: hidden;
+  transition: height 1.7s ease-out;
+  color: black;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  overflow: scroll;
+}
+
+@media screen and (min-width:1101px){
+  .mobile-header{
+    display: none;
+   }
+}
+  @media screen and (max-width: 1100px) {
+   .mobile-header{
+    display: block;
+   }
+   .desktop-header{
+    display: none;
+   }
+  }
+  @media screen and (max-width: 768px) {
+   .desktop-header{
+    display: none;
+   }
+   .mobile-header{
+    display: block;
+   }
   }
 </style>
