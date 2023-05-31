@@ -70,6 +70,7 @@ padding: 20px 0px 20px 0px;
 z-index: 999;
 background-color: white;
 font-size: 16px;
+box-shadow: 0 5px 15px #17173a26;
 }
 .navbar-inner-div{
     display: flex;
@@ -170,7 +171,10 @@ font-size: 16px;
   transform: rotate(90deg);
   height: 15px;
 }
-
+.sticky{
+  position: sticky;
+  top: 0;
+}
 /* Navbarends */
 
 /* Responsive Navbar */
