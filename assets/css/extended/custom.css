@@ -215,17 +215,16 @@ padding-right: 20px;
   align-items: center;
 }
 .responsive-navbar-footer{
-  background-color: #ff6b6b;
-  color: #fff;
-  font-size: .8rem;
-  justify-content: space-between;
-  margin-top: auto;
-  padding: 7px 5%;
+     background-color: #ff6b6b;
+    color: #fff;
+    font-size: .8rem;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: 7px 5%;
   position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
-  /* padding-left: 20px; */
 }
 .responsive-navbar-footer a{
   color: white;
