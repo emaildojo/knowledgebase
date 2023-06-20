@@ -4,7 +4,7 @@ date: 2023-04-13T20:01:44+05:30
 draft: false
 tags: ["email-campaign", "email-marketing", "Thought Leader"]
 categories: ["Email Insights"]
-author: ["Chaitanya Chinta"]
+author: ["Chaitu"]
 ---
 
 Once upon a time in the mystical land of ARPANET, a young computer engineer named Ray Tomlinson crafted a simple message, and thus, the first-ever email was born in 1971. Little did he know that his humble creation would evolve into a powerful marketing tool that would reshape the way businesses communicate with their customers.

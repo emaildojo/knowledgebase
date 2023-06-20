@@ -3,7 +3,7 @@ title: "Everything to Know DNSBL Blocklist"
 date: 2023-04-13T19:24:57+05:30
 draft: false
 tags: ["email-marketing", "email-campaign"]
-categories: ["Email Analytics and Optimization"]
+categories: ["Email Strategy"]
 author: ["Hitesh Pandey"]
 ---
 
