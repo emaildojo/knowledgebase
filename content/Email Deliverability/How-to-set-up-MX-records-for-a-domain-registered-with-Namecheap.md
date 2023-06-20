@@ -9,7 +9,9 @@ author: ['Raj Shinde']
 
 ## Introduction
 
-MX records are essential for email delivery. They tell email servers where to send emails for a domain. MX records specify the mail servers responsible for handling email, their priority, and IP addresses. When sending an email, the client checks the recipient's domain's MX records to find the correct mail server. There are primary, backup, and round-robin MX record types. Setting up MX records involves accessing DNS settings and ensuring accuracy. Proper MX record configuration is crucial for reliable email delivery.
+[MX records](https://emaildojo.io/mx-record-lookup) are essential for email delivery. They tell email servers where to send emails for a domain. MX records specify the mail servers responsible for handling email, their priority, and IP addresses. When sending an email, the client checks the recipient's domain's MX records to find the correct mail server. There are primary, backup, and round-robin MX record types. Setting up MX records involves accessing DNS settings and ensuring accuracy. Proper MX record configuration is crucial for reliable email delivery.
+
+Know more about [MX records](https://emaildojo.io/knowledgebase/email-deliverability/introduction-to-mx-record-part-1/).
 
 ## Setting up
 
@@ -19,6 +21,7 @@ Please note that before proceeding with the setup of your mail service, it is im
 ## To set up MX records for your domain, follow these steps:
 
 **Step-1:**  Sign into your Namecheap account in the top left corner of the page.
+
 **Step-2:**  Select Domain List from account  in home page:
 
 ![AccountDomainList](https://i.imgur.com/gjuNflT.png)
@@ -43,7 +46,7 @@ The MX records will be set up automatically after selecting this option:
 
 ![EmailForwarding](https://i.imgur.com/bkPSbPm.png)
 
-- **MXE record** is used for forwarding mail to a mail server's IP address:
+- **MXE record** is used for forwarding mail to a mail server's IP address.
 
 ![mxe](https://i.imgur.com/U6KBEbf.png)
 - **Custom MX** is used to set MX records for third-party mail services, like cPanel webmail service (if you wish to use cPanel mail service with default nameservers), Zoho mail, Outlook, etc.
