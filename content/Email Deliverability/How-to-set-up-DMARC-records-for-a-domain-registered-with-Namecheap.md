@@ -31,7 +31,6 @@ Know more about [DMARC records](https://emaildojo.io/knowledgebase/email-deliver
 
 ## Setting up DMARC record
 
-To add a required record to your domain using Namecheap's BasicDNS, PremiumDNS, or FreeDNS, follow these steps:
 
 **To set up DMARC records for your domain, follow these steps:**
 

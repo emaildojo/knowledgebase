@@ -26,8 +26,6 @@ Know more about [SPF records](https://emaildojo.io/knowledgebase/email-deliverab
 
 ## Setting up SPF record
 
-To add a required record to your domain using Namecheap's BasicDNS, PremiumDNS, or FreeDNS, follow these steps:
-
 **To set up SPF records for your domain, follow these steps:**
 
 **Step-1:**  Sign into your Namecheap account in the top left corner of the page.

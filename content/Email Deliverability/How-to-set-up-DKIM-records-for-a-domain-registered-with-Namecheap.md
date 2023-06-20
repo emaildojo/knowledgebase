@@ -28,9 +28,8 @@ Know more about [DKIM records](https://emaildojo.io/knowledgebase/email-delivera
 
 ## Setting up DKIM record
 
-To add a required record to your domain using Namecheap's BasicDNS, PremiumDNS, or FreeDNS, follow these steps:
+**To add a required record to your domain using Namecheap's BasicDNS, PremiumDNS, or FreeDNS, follow these steps:**
 
-**To set up DKIM records for your domain, follow these steps:**
 
 **Step-1:**  Sign into your Namecheap account in the top left corner of the page.
 
