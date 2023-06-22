@@ -42,7 +42,14 @@ Use conditional statements to show different content to different subscribers ba
 4. Use AMP components: 
 AMP offers a range of components that allow you to create dynamic content, such as the AMP-list component for displaying real-time data and the AMP-bind component for creating interactive forms.
 
-By following these tips, you can create dynamic content in AMP emails that engages your subscribers and drives conversions for your business.
+By following these tips, you can create dynamic content in AMP emails that engages your subscribers and drives conversions for your business. But, creating AMP emails manually can be a tedious and time consuming task.
+
+To make the process of AMP generation and customisation easier for you, use the [AMP editor tool](https://emaildojo.io/amp-email-editor) that is freely available.
+For using this tool you can follow these steps:
+- Use [AMP template Gallery](https://emaildojo.io/amp-editor-Gallery) :
+  ![AMP Gallery](https://i.imgur.com/nwfojS7.png)
+- Upload existing file by clicking on browse in [AMP editor](https://emaildojo.io/amp-email-editor).
+  ![browse amp](https://i.imgur.com/D3gpQ5X.png)
 
 ## Conclusion
 Dynamic content is a powerful tool for email marketing, allowing you to create personalized and engaging emails that stand out from the crowd. With AMP emails, you can take dynamic content to the next level, offering a range of interactive features that allow subscribers to engage with your content in real-time. By using data to personalize your content, using dynamic content blocks, and leveraging interactive components, you can create dynamic content in AMP emails that drives engagement and conversions for your business.

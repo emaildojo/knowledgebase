@@ -16,20 +16,17 @@ AMP (Accelerated Mobile Pages) is an open-source technology that was originally 
 Before you start setting up AMP emails, it's important to understand the basics of how they work. AMP emails use HTML code that is optimized for mobile devices, and they typically include interactive features such as buttons, forms, and carousels. To set up AMP emails for your domain, you'll need to:
 
 - Create an AMP version of your email
-- Host the AMP content on your server
 - Add the necessary code to your email headers
 - Send the email to your subscribers
 
 1. Create an AMP Version of Your Email :
 The first step in setting up AMP emails is to create an AMP version of your email. This typically involves creating a new HTML file that is optimized for mobile devices and includes the necessary AMP code. There are several tools available online that can help you create AMP emails, including the AMP Email Playground and the AMP Email Boilerplate. You can also hire a professional email designer to create a custom AMP email template for your business.
 
-2. Host the AMP Content on Your Server:
-Once you've created an AMP version of your email, you'll need to host the AMP content on your server. This typically involves creating a subdomain for your AMP content, such as "amp.yourdomain.com," and hosting the files on that subdomain. You'll also need to configure your server to serve the AMP content correctly.
 
-3. Add the Necessary Code to Your Email Headers :
+2. Add the Necessary Code to Your Email Headers :
 To enable AMP emails, you'll need to add the necessary code to your email headers. This typically includes the "amp4email" attribute in the HTML tag, as well as the "amphtml" link tag in the email header. You'll also need to include a fallback URL for users who are unable to view AMP content.
 
-4. Send the Email to Your Subscribers:
+3. Send the Email to Your Subscribers:
 Once you've set up your AMP email, it's time to send it to your subscribers. Make sure to test the email thoroughly before sending it to ensure that all the interactive features are working correctly. You may also want to segment your email list and send different versions of the email to different segments to see which version performs best.
 
 ## Best Practices for Setting Up AMP Emails

@@ -32,7 +32,7 @@ Another benefit of using AMP emails is improved analytics and tracking. With AMP
 6. Mobile Optimization :
 Finally, using AMP emails in email marketing can help to optimize your campaigns for mobile users. With more people accessing email on their mobile devices than ever before, it's essential to ensure that your email content is mobile-friendly.AMP emails are designed to be mobile-first, which means they're optimized for smaller screens and touch-based navigation. This mobile optimization can help to improve the overall user experience and drive more conversions from mobile users.
 
-Conclusion
+## Conclusion
 
 AMP emails are a powerful tool for email marketers looking to improve their email campaigns and increase engagement with their audience. By using AMP emails, you can create faster-loading, more engaging email content that's optimized for mobile users.
 

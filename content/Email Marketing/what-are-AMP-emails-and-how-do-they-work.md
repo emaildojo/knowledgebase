@@ -32,7 +32,6 @@ Here are just a few:
 
 5.  Email Deliverability: According to Google, emails that utilize AMP technology are more likely to be delivered to the primary inbox, rather than the promotions or spam folder. This can help improve the visibility of your emails and increase the likelihood that recipients will engage with your content.
 
-
 ## Best Practices for Using AMP Emails
 Now that you understand the benefits of AMP emails, it's important to follow best practices when using this technology for your email marketing campaigns. Here are a few tips to keep in mind:
 1. Test Your AMP Emails: Before sending out your AMP emails, it's important to test them across a variety of email clients and devices. This will help ensure that the emails are rendering properly and that the dynamic content is functioning as expected.
@@ -54,12 +53,17 @@ To help illustrate the power of AMP emails, let's take a look at a few examples 
 
 3. Google: Google uses AMP emails to send event invitations to their users. The email includes a dynamic RSVP form that allows recipients to respond directly within the email.
 
+If you are curious about the AMP emails and don't know where to start, you can use this [tool](https://emaildojo.io/amp-email-editor) for creation of customised AMP emails.
 
 ## Conclusion
 AMP emails provide a powerful tool for improving the user experience and engagement of your email marketing campaigns. By utilizing AMP technology, you can create more interactive and engaging email experiences that are optimized for mobile devices.
+
 To get the most out of AMP emails, it's important to follow best practices and test your emails across a variety of email clients and devices. By doing so, you can ensure that your emails are rendering properly and that the dynamic content is functioning as expected.
+
 In addition, incorporating AMP emails into your strategy can also help to improve your overall SEO efforts. Google has indicated that it may use engagement signals from emails, such as click-through rates and time spent reading, as a ranking factor for search results. By providing more engaging and interactive email experiences, you may be able to improve these engagement signals and ultimately improve your search rankings.
+
 It's worth noting that AMP emails are still a relatively new technology, and not all email clients support them yet. However, with the growing popularity of mobile devices and the increasing demand for more engaging and interactive email experiences, it's likely that AMP emails will become more widely adopted in the near future.
+
 If you're interested in incorporating AMP emails into your email marketing strategy, there are a few resources available to help you get started. The official AMP Project website provides extensive documentation on how to create AMP emails, as well as a variety of templates and tools to help you get started.
 In addition, many email service providers, such as Mailchimp and Campaign Monitor, now offer support for AMP emails, making it easier than ever to incorporate this technology into your campaigns.
 
