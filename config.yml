@@ -1,5 +1,5 @@
-baseURL: "/" 
-#baseURL: "https://beta.emaildojo.io/knowledgebase/" 
+#baseURL: "/" 
+baseURL: "https://emaildojo.io/knowledgebase/" 
 languageCode: en-us
 title: Knowledgebase 
 theme: PaperMod
