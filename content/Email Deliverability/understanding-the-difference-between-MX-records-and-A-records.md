@@ -17,9 +17,9 @@ Before we delve into MX records and A records, it's crucial to understand the co
 
 ## A Records: Mapping Websites to IP Addresses
 
-Imagine you want to visit your favorite website, let's say https://emaildojo.io . When you type this address into your browser, your computer needs to find out the IP address associated with that website so it can connect to the correct server. This is where A records come into play.
+Imagine you want to visit your favorite website, let's say emaildojo.io . When you type this address into your browser, your computer needs to find out the IP address associated with that website so it can connect to the correct server. This is where A records come into play.
 
-An A record (short for Address record) is like a phonebook that maps a domain name (e.g., https://emaildojo.io ) to the corresponding IP address (e.g., 192.0.2.1). It acts as a bridge, allowing your computer to know where to find the website you want to visit. In simpler terms, A records are responsible for translating easy-to-remember domain names into the numeric IP addresses that computers understand.
+An A record (short for Address record) is like a phonebook that maps a domain name (e.g., https:/emaildojo.io ) to the corresponding IP address (e.g., 192.0.2.1). It acts as a bridge, allowing your computer to know where to find the website you want to visit. In simpler terms, A records are responsible for translating easy-to-remember domain names into the numeric IP addresses that computers understand.
 
 ## MX Records: Directing Emails to the Right Destination
 
@@ -47,7 +47,7 @@ To solidify our understanding, let's look at a couple of examples.
 Suppose you want to visit a popular online store, www.shopexample.com. When you type this address into your browser, your computer checks the A record associated with the domain. It finds the IP address, let's say 203.0.113.1, and establishes a connection with the server hosting the website. This allows you you to browse and interact with the online store seamlessly.
 
 2. Email Delivery
-Now, let's say you want to send an email to your friend, john@example.com. When you hit the send button, your email service provider looks up the MX records for the domain "example.com" to find the designated mail server responsible for handling incoming emails. It discovers that the MX record points to a server with the IP address 198.51.100.2. Your email service provider then delivers your message to that server, which in turn ensures that the email reaches John's inbox.
+Now, let's say you want to send an email to your friend. When you hit the send button, your email service provider looks up the MX records for the domain "example.com" to find the designated mail server responsible for handling incoming emails. It discovers that the MX record points to a server with the IP address 198.51.100.2. Your email service provider then delivers your message to that server, which in turn ensures that the email reaches John's inbox.
 
 ## Managing A Records and MX Records
 

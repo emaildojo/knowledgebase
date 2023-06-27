@@ -9,7 +9,7 @@ author: ["Raj Shinde"]
 
 ## Introduction
 
-Have you ever encountered email delivery issues, where your messages seem to disappear into thin air? It can be frustrating, especially when you're expecting important communications. One common culprit behind such problems is MX record issues. But fear not! In this blog post, we'll guide you through troubleshooting [MX record](https://emaildojo.io/mx-record-lookup) problems and help you understand the common error messages associated with them. So, let's dive in and get your emails flowing smoothly again!
+Have you ever encountered email delivery issues, where your messages seem to disappear into thin air? It can be frustrating, especially when you're expecting important communications. One common culprit behind such problems is MX record issues. But fear not! In this blog post, we'll guide you through troubleshooting [MX record](https://emaildojo.io/knowledgebase/email-deliverability/introduction-to-mx-record-part-1/) problems and help you understand the common error messages associated with them. So, let's dive in and get your emails flowing smoothly again!
 
 ## Understanding MX Records
 Before we jump into troubleshooting, let's quickly recap what MX records are. MX records (Mail Exchange records) are essential components of the Domain Name System (DNS) that help direct email traffic. They specify the mail servers responsible for handling incoming emails for a particular domain. Think of MX records as postal addresses for your emails, ensuring they reach the correct mail server.
@@ -19,7 +19,6 @@ When MX record issues occur, you might experience problems with email delivery o
 - Non-Delivery Receipts (NDRs): If you or your contacts receive bounce-back emails or non-delivery receipts, it indicates that emails are not reaching their intended destinations.
 - Delayed or Missing Emails: If you notice significant delays in receiving emails or they go missing altogether, there's a possibility of MX record issues.
 - Inability to Send Emails: If you're unable to send emails to specific domains or encounter constant failures, it could be due to MX record misconfigurations.
-
 ## Troubleshooting MX Record Issues
 Now that we've identified some potential MX record issues, let's explore troubleshooting steps to resolve them:
 

@@ -8,7 +8,7 @@ author: ["Raj Shinde"]
 ---
 ## Introduction
 
-Have you ever received suspicious emails that claim to be from your bank, social media accounts, or other trusted sources? These emails may look legitimate at first glance, but they often turn out to be attempts to deceive or scam unsuspecting recipients. To combat such email-based threats, various technologies are used, and one of them is [SPF](https://emaildojo.io/spf-record-checker) (Sender Policy Framework) records. 
+Have you ever received suspicious emails that claim to be from your bank, social media accounts, or other trusted sources? These emails may look legitimate at first glance, but they often turn out to be attempts to deceive or scam unsuspecting recipients. To combat such email-based threats, various technologies are used, and one of them is [SPF](https://emaildojo.io/knowledgebase/email-deliverability/introduction-to-spf-records/) (Sender Policy Framework) records. 
 
 ## The Importance of Email Security
 
@@ -19,13 +19,13 @@ Enter SPF records, a simple yet effective mechanism to combat email spoofing. SP
 
 ## How SPF Works
 
-To understand how SPF works, let's consider a scenario. Suppose you receive an email from john@example.com. When the email arrives at your mail server, the server performs an SPF check by looking up the SPF record for the domain example.com. The SPF record contains a list of IP addresses or domain names of servers authorized to send emails on behalf of example.com.
+To understand how SPF works, let's consider a scenario. Suppose you receive an email from an email account. When the email arrives at your mail server, the server performs an SPF check by looking up the SPF record for the domain example.com. The SPF record contains a list of IP addresses or domain names of servers authorized to send emails on behalf of example.com.
 
 If the sending server's IP address matches any of the authorized IP addresses listed in the SPF record, the email passes the SPF check and is considered legitimate. However, if the sending server's IP address does not match any of the authorized IP addresses, the email fails the SPF check, indicating that it may be spoofed or unauthorized.
 
 ## Combining SPF with MX Records
 
-While SPF records help determine the legitimacy of the sending server, they do not directly handle the delivery of emails. This is where [MX records](https://emaildojo.io/mx-record-lookup) come into play. MX records, as we discussed earlier, specify the mail servers responsible for handling incoming emails for a domain.
+While SPF records help determine the legitimacy of the sending server, they do not directly handle the delivery of emails. This is where [MX records](https://emaildojo.io/knowledgebase/email-deliverability/introduction-to-mx-record-part-1/) come into play. MX records, as we discussed earlier, specify the mail servers responsible for handling incoming emails for a domain.
 
 When an email is sent, the recipient's mail server checks the SPF record to verify the sending server's authenticity. If the email passes the SPF check, the recipient's mail server looks up the MX records for the recipient's domain to determine where to deliver the email. The MX records provide the necessary information about the mail servers authorized to receive emails for that domain. This ensures that the email reaches the correct destination and helps prevent spam.
 
@@ -43,9 +43,9 @@ Implementing SPF records brings several benefits in the fight against email spoo
 
 ## Implementing and Managing SPF Records
 
-To set up SPF records for your domain, you need access to your domain's DNS settings. Typically, this can be done through your domain registrar or hosting provider's control panel. Consult the provider's documentation or support resources for specific instructions on how to add or modify SPF records.
+To set up SPF records for your domain, you need access to your domain's DNS settings. Typically, this can be done through your domain registrar or hosting provider's control panel. Consult the provider's documentation or support resources for specific instructions on how to add or modify SPF records. You can use any of the online [SPF record generator tools](https://emaildojo.io/spf-record-generator) .
 
-When creating [SPF records](https://emaildojo.io/spf-record-generator), it's important to consider various factors such as multiple authorized mail servers, third-party email services, and other legitimate sources of email. Incorrectly configuring SPF records can inadvertently cause legitimate emails to be rejected. Therefore, it's advisable to seek guidance from experts or consult the documentation provided by your email service provider to ensure proper configuration.
+When creating SPF records, it's important to consider various factors such as multiple authorized mail servers, third-party email services, and other legitimate sources of email. Incorrectly configuring SPF records can inadvertently cause legitimate emails to be rejected. Therefore, it's advisable to seek guidance from experts or consult the documentation provided by your email service provider to ensure proper configuration. 
 
 ## SPF Record Example
 
