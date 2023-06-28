@@ -14,7 +14,7 @@ When setting up DKIM, the first step involves adding a DKIM record to your domai
 
 - **Solution:**
 To fix this, go to your domain's DNS settings (usually provided by your domain registrar or hosting provider) and locate the DKIM record section. Make sure you copy and paste the correct DKIM record, as provided by your email service provider, into the appropriate field. Double-check for any typos or missing characters. Don't forget to save your changes!
-You may find it helpful to utilize online DKIM Record Generator tools for conveniently [generating](https://emaildojo.io/dkim-generator) DKIM records.
+You may find it helpful to utilize online [DKIM Record Generator](https://emaildojo.io/dkim-generator) tools for conveniently generating DKIM records.
 
 ## Error: Multiple DKIM Records
 Sometimes, people mistakenly create multiple DKIM records for the same domain. This can lead to confusion for email servers trying to authenticate your emails.
