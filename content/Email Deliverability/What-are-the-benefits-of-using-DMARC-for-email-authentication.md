@@ -25,10 +25,12 @@ To understand the benefits of DMARC, let's meet its three key components:
 
 1. **SPF (Sender Policy Framework):**
 SPF is like a secret handshake between email servers. It tells the receiving server, "Hey, I'm the legitimate email server for this domain." It achieves this by defining a list of authorized email servers that are allowed to send emails on behalf of a particular domain. When an email arrives, the receiving server checks the SPF record to verify if it came from an authorized server.
+
 Know more about [SPF Records](https://emaildojo.io/knowledgebase/email-deliverability/introduction-to-spf-records/) .
 
 2. **DKIM (DomainKeys Identified Mail):**
 DKIM adds a digital signature to an email, similar to a unique seal. This signature confirms that the email hasn't been tampered with during transit and ensures it genuinely originated from the stated sender. The receiving server uses cryptographic techniques to verify the signature, establishing trust and authenticity.
+
 Know more about [DKIM Records](https://emaildojo.io/knowledgebase/email-deliverability/introduction-to-dmarc-records/) .
 
 3. **Alignment:**

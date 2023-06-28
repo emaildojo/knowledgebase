@@ -22,7 +22,7 @@ Solution: To fix this error, review your SPF record carefully. Make sure it incl
 
 ## Error 2: Incomplete DKIM (DomainKeys Identified Mail) Configuration
 
-DKIM adds an encrypted signature to your outgoing emails, providing an additional layer of authentication. If the DKIM configuration is incomplete or incorrect, DMARC alignment failures may occur.You use Emaildojo's DKIM record checker to check [DKIM record](https://emaildojo.io/dkim-checker) .
+DKIM adds an encrypted signature to your outgoing emails, providing an additional layer of authentication. If the DKIM configuration is incomplete or incorrect, DMARC alignment failures may occur. You use Emaildojo's DKIM record checker to check [DKIM record](https://emaildojo.io/dkim-checker) .
 
 Solution: Check your DKIM configuration to ensure it's properly set up for all the authorized email sources. Generate and add the necessary DKIM keys to your domain's DNS records. If you're using an email service provider, they should have detailed instructions on how to correctly configure DKIM for your domain.
 
