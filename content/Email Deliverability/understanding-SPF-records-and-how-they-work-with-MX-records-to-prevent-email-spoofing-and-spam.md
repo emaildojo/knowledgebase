@@ -5,6 +5,10 @@ draft: false
 tags: ["MX", "MX Checker","SPF","SPF Checker"]
 categories: ["Email Deliverability"]
 author: ["Raj Shinde"]
+cover:
+   image: 'https://newtwb.s3.amazonaws.com/images/null/Untitled%20design%20%2815%29.png'
+   alt: 'What is SPF record'
+   caption: 'SPF Records'
 ---
 ## Introduction
 

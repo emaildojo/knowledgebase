@@ -5,6 +5,10 @@ draft: false
 tags: ["bimi", "deliverability"]
 categories: ["Email Deliverability"]
 author: ["Raj Shinde"]
+cover:
+  image: 'https://i.imgur.com/z4JM2qi.png'
+  alt: 'BIMI'
+  caption: 'https://emaildojo.io/bimi-record-validator'
 ---
 
 ## Introduction

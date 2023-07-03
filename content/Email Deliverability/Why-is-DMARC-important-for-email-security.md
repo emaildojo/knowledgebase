@@ -2,10 +2,10 @@
 title: "Why Is DMARC Important for Email Security"
 date: 2023-06-28T11:50:28+05:30
 draft: false
-# cover:
-#   image: ''
-#   alt: 'Solution info banner'
-#   caption: 'Solutions to spam smtp error'
+cover:
+  image: 'https://newtwb.s3.amazonaws.com/images/null/DMARC_monitor-2340x1000.jpg'
+  alt: 'DMARC'
+  caption: 'DMARC Records'
 tags: ["DMARC", "DMARC Checker"]
 categories: ["Email Deliverability"]
 author: ["Raj Shinde"]
