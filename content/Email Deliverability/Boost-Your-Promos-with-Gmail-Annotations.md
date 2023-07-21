@@ -16,7 +16,9 @@ Imagine this: your emails, but super fast and efficient, giving you a user exper
 Let's dive into the awesomeness of Gmail Annotations and see how it'll make your emails the superstar of the inbox:
 
 ## Product Carousel:
- Imagine a dazzling carousel of your products right in your emails. It's like a mini shopping festival in the Promotions tab! You can play around with the subject line, prices, product names, and your logo. Showcase your products - they could be the same as in your email or entirely different. It’ll be taken directly to your product website - more engagement and a higher chance of conversions.
+ Imagine a dazzling carousel of your products right in your emails. It's like a mini shopping festival in the Promotions tab! You can play around with the subject line, prices, product names, and your logo. 
+ 
+ Showcase your products - they could be the same as in your email or entirely different. It’ll be taken directly to your product website - more engagement and a higher chance of conversions.
 ![Product Carousel](https://i.imgur.com/LJVWEIT.png)
 [Create your Product carousel](https://emaildojo.io/gmail-promo-annotation-builder)
 
