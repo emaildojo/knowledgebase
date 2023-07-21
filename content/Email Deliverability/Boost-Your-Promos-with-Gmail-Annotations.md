@@ -17,13 +17,13 @@ Let's dive into the awesomeness of Gmail Annotations and see how it'll make your
 
 ## Product Carousel:
  Imagine a dazzling carousel of your products right in your emails. It's like a mini shopping festival in the Promotions tab! You can play around with the subject line, prices, product names, and your logo. 
- 
+
  Showcase your products - they could be the same as in your email or entirely different. It’ll be taken directly to your product website - more engagement and a higher chance of conversions.
 ![Product Carousel](https://i.imgur.com/LJVWEIT.png)
 [Create your Product carousel](https://emaildojo.io/gmail-promo-annotation-builder)
 
 ## Single Image Preview: 
-Not in the carousel camp? No problemo! If your business revolves around one star product, or if you've built your email around a certain item, show it off with a single image preview. And hey, we support various aspect ratios, with high quality, however we recommend having 2:3, 4:5, 1:1, 3:2, and 1.91:1 so your image will always look its best. Pique your recipient's curiosity with stunning images that scream, "click me!"
+Not in the carousel camp? No problem! If your business revolves around one star product, or if you've built your email around a certain item, show it off with a single image preview. And hey, we support various aspect ratios, with high quality, however we recommend having 2:3, 4:5, 1:1, 3:2, and 1.91:1 so your image will always look its best. Pique your recipient's curiosity with stunning images that scream, "click me!"
 ![Single Image Preview](https://i.imgur.com/wlkCQ27.png)
 [Create your Single Image](https://emaildojo.io/gmail-promo-annotation-builder)
 ## Deal Annotations: 
@@ -31,8 +31,10 @@ Have a sale going on? Running a promotional campaign? Then deal annotations are 
 <!-- <p style="text-align:center"> -->
 
 <!-- </p> -->
-You might be wondering, "Wait a minute, do I need to be a coding genius to use these?" Relax! We've got the Gmail Promo Annotation Builder. It's as easy as pie. Select the feature you want, input with details and voila! You've got your annotated email. No more nightmarish coding, just super engaging annotations in a few clicks here 
+You might be wondering, "Wait a minute, do I need to be a coding genius to use these?" Relax! We've got the Gmail Promo Annotation Builder. It's as easy as pie. Select the feature you want, input with details and voila! You've got your annotated email. No more nightmarish coding, just super engaging annotations in a few clicks [here](https://emaildojo.io/gmail-promo-annotation-builder)
+
 ![Deal Annotations](https://i.imgur.com/hK8AclI.png)
+
 [Create your Deal Annotations](https://emaildojo.io/gmail-promo-annotation-builder)
 
 Before you jump into the annotations bandwagon, though, remember a few prerequisites:
